@@ -68,6 +68,16 @@ Arrays, Strings, Trees, Graphs, Linked Lists, Dynamic Programming, Stacks & Queu
 
 Add new topics by editing the `topics` array in the JavaScript section.
 
+### Progress Report Feature
+The app includes a comprehensive progress report with:
+- **Overall Statistics:** Total problems, solved, in progress, to do, revisit counts
+- **Completion Rates:** Overall and per-difficulty percentages with progress bars
+- **Difficulty Distribution:** Easy/Medium/Hard breakdown with visual boxes
+- **Topic Coverage:** Per-topic problem count with solve rate percentages
+- **Report Download:** Export progress as text file with full problem details
+
+Access via the "📈 Progress Report" and "⬇️ Download Report" buttons in the header.
+
 ---
 
 ## Feature Guidelines
@@ -104,6 +114,8 @@ Add new topics by editing the `topics` array in the JavaScript section.
 - **Data persistence:** Add problem, refresh page, verify it's still there
 - **Filter accuracy:** Use all filter combinations
 - **Edge cases:** Empty state, no results after filter, long text
+- **Progress Report:** Verify stats accuracy with known data, test download functionality
+- **Report Modal:** Test opening/closing, verify no layout issues with many topics
 
 ---
 
@@ -163,12 +175,20 @@ Add new topics by editing the `topics` array in the JavaScript section.
 - No search functionality
 - No bulk operations (export/import)
 
+### Completed Features
+- ✅ Progress Report with statistics and completion rates
+- ✅ Topic coverage analysis
+- ✅ Report download as text file
+
 ### Future Enhancements
-- CSV export / import
-- LeetCode API sync
-- Analytics dashboard (time trends, topic coverage)
+- CSV export / import with full dataset
+- Time-based analytics (track when problems were solved)
+- LeetCode API sync for auto-import
+- Difficulty progression suggestions
 - Dark mode toggle
 - Multi-browser sync via GitHub Gist or personal server
+- Streak tracking (consecutive solving days)
+- Performance metrics (problems solved per week)
 
 ---
 
